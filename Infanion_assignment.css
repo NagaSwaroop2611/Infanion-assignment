@@ -1,0 +1,352 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Header */
+.top-nav {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+hr{
+  border: 2px solid #737373;
+}
+
+.content-box {
+  background: #e6f7e8;
+  /* soft green */
+  padding: 30px 40px;
+  /* keeps text centered & readable */
+  margin: 0 auto;
+  /* centers the box */
+}
+
+.content-box p {
+  text-align: center;
+  /* center-aligned text */
+  font-size: 16px;
+  line-height: 1.8;
+  /* airy spacing like image */
+  color: #5f6f64;
+  /* soft gray-green text */
+  margin: 0;
+}
+
+
+/* Content blocks */
+.soft-green {
+  background: #e6f7e8;
+  padding: 30px;
+}
+
+.blog-date {
+  font-size: 13px;
+  color: #888;
+}
+
+/* Images */
+.blog-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.explore-card {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: contain;
+  background-position: center;
+
+  padding: 20px;
+}
+
+.bg1 {
+  background: #f2f7dc;
+}
+
+.bg2 {
+  background: #e4f4ea;
+}
+
+.bg3 {
+  background: #e9f6f8;
+}
+
+.bg4 {
+  background: #e8effc;
+}
+
+.bg5 {
+  background: #eee9fb;
+}
+
+.bg6 {
+  background: #f9e4ec;
+}
+
+.explore-card span {
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+/* Newsletter */
+.newsletter {
+  background: #f1f6db;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #676464 ;
+}
+
+.newsletter-form input {
+  width: 280px;
+}
+
+/* Footer */
+footer {
+  background: #f1f6db;
+  padding: 30px 0;
+  font-size: 13px;
+}
+
+.pastel-card{
+  padding: 25px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+.pastel-card:hover{
+  transform: scale(1.05);
+  transition: all ease-in-out 0.5s;
+}
+
+.card-content{
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.card-content h6{
+  margin-bottom: 20px;
+}
+
+.copyrights{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-weight:600;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.icons img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* hover (desktop) */
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+.copyrights img{
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .top-nav {
+    padding: 12px 0;
+    font-size: 12px;
+  }
+
+  .blog-img {
+    height: 200px;
+  }
+
+  .content-box {
+    padding: 20px;
+  }
+
+  .content-box p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  soft-green {
+    padding: 20px;
+  }
+
+  .pastel-card {
+    aspect-ratio: auto;
+  }
+
+  .card-content {
+    aspect-ratio: auto;
+    min-height: 220px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .card-content h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .card-content span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .newsletter-form {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 75%;
+  }
+
+  .icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .copyrights{
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+
+/* Navbar layout */
+.custom-navbar {
+  max-width: 768px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Desktop nav items */
+.desktop-nav {
+  display: flex;
+  gap: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.desktop-nav .nav-link {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.desktop-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.25s ease;
+}
+
+.desktop-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.desktop-nav .nav-link:hover {
+  color: #000;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+
+/* Hamburger icon */
+.nav-toggle {
+  font-size: 28px;
+  border: none;
+}
+
+/* Offcanvas smooth animation */
+.offcanvas {
+  transition: transform 0.35s ease-in-out, opacity 0.2s ease;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #000;
+  transform: translateX(4px);
+}
+
+.nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+@media (min-width: 769px) { 
+  .card-content{ justify-content: center; 
+  } 
+}

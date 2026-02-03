@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(0 0)">
+    <g id="Icon_" data-name="Icon " transform="translate(0 0)">
+      <g id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" fill="#414141" stroke="#fd49c6" stroke-width="1" opacity="0">
+        <rect width="28" height="29" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="28" fill="none"/>
+      </g>
+      <g id="Icon" transform="translate(1.14 5.855)">
+        <path id="Path" d="M25.711,6.129a3.211,3.211,0,0,0-2.24-2.31c-1.987-.485-9.933-.485-9.933-.485s-7.946,0-9.933.532a3.209,3.209,0,0,0-2.24,2.309,33.464,33.464,0,0,0-.532,6.111,33.446,33.446,0,0,0,.532,6.155,3.21,3.21,0,0,0,2.24,2.218c1.987.532,9.933.532,9.933.532s7.946,0,9.933-.532a3.209,3.209,0,0,0,2.24-2.309,33.445,33.445,0,0,0,.532-6.064A33.462,33.462,0,0,0,25.711,6.129Z" transform="translate(-0.833 -3.333)" fill="#414141"/>
+        <path id="Path-2" data-name="Path" d="M8.125,14.621l6.642-3.777L8.125,7.067Z" transform="translate(1.982 -1.892)" fill="#faf5ef"/>
+      </g>
+    </g>
+  </g>
+</svg>
